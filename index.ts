@@ -1,10 +1,10 @@
-var tdElements = document.getElementsByTagName ame('TD');
+var tdElements = document.getElementsByTagName('TD');
 
 
 for(var tdElement of
  tdElements) {
   tdElement.
-  addEventListner
+  addEventListener
   ('click', handleClick);
 }
 
